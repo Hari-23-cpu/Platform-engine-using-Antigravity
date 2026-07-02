@@ -8,10 +8,9 @@
       "path": "./tsconfig.node.json"
     }
   ],
+ {
   "compilerOptions": {
-    "baseUrl": ".",
-    "paths": {
-      "@/*": ["./src/*"]
-    }
+    "skipLibCheck": true,
+    "noEmit": false
   }
-}
+ }
