@@ -3,7 +3,7 @@
 A high-performance web platform based on the **Antigravity** architecture, designed to browse, filter, and curate top content creators across major social platforms (Instagram, YouTube, and TikTok). This system features custom multi-layered ambient backdrop themes, fluid micro-interactions, and an interactive list state selection framework.
 
 ### 🔗 Live Project Link
-* **Live Deployment Url:** [https://platform-engine-antigravity.vercel.app](https://platform-engine-antigravity.vercel.app)
+* **Live Deployment Url:** [https://platform-engine-antigravity.vercel.app](https://platform-engine-using-antigravity.vercel.app)
 
 ---
 
