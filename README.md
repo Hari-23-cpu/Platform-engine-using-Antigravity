@@ -28,7 +28,8 @@ We cleaned and optimized the entire project codebase to match Antigravity style 
 
 ### 2. 🎯 Micro-Interactions & Brand Hovers
 * **Dynamic Control Filters:** Updated platform navigation buttons to automatically transform into their native brand colors (**Instagram Purple, YouTube Red, TikTok Cyan**) with glowing drop shadows when hovered over.
-* **Interactive Card Actions:** Synchronized the exact same premium branding animations onto individual creator "Add to List" card actions based on their social network.
+* **Interactive Card Actions & List Curations:** Synchronized the exact same premium branding animations onto individual creator "Add to List" card actions based on their social network.
+* **Dedicated Selection Dashboard:** Engineered a separate, real-time tracking panel ("Selected List") to manage curated profiles with native state removal handlers.
 
 ### 3. 🛡️ Critical Production Bug Fixes
 * **Strict Type Compilation (`ts(1484)`):** Resolved module runtime faults by enforcing strict type-only imports (`import { type ReactNode }`) required by the project's strict `verbatimModuleSyntax` rules.
@@ -41,6 +42,6 @@ We cleaned and optimized the entire project codebase to match Antigravity style 
 * 📄 `src/components/Layout.tsx` — Controls global layout structures, type-safe imports, container wrapping metrics, and page fade-in entry timelines.
 * 📄 `src/components/PlatformFilter.tsx` — Handles active platform selection, input query searches, and dynamic brand hover styles safely without type conflicts.
 * 📄 `src/index.css` — Centralizes global key utility rules, typography imports, keyframe maps, and core background variables.
-* 📄 `src/components/AnimatedBackground.tsx` — Manages the high-performance rendering layer for the ambient moving aurora canvas.
-* 📄 `src/components/AnimatedWrapper.tsx` — Employs lightweight layout entrance transitions and interactive hover wrappers contextually.
-* 📄 `src/store/useInfluencerStore.ts` — Houses the globally shared Zustand state mechanics managing cross-component platform values, searches, and cart utilities cleanly.
+* 📄 `src/components/AnimatedBackground.tsx` — Computes the high-performance gradient rendering configurations smoothly behind application card windows.
+* 📄 `src/components/AnimatedWrapper.tsx` — Acts as the declarative entry controller structure deploying reveal keyframes on internal DOM clusters.
+* 📄 `src/store/useInfluencerStore.ts` — Runs the global application state machine, seamlessly handling search input mutations, switching filters, card additions, list removals, and state adjustments.
